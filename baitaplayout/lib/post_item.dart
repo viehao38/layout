@@ -17,7 +17,7 @@ class MyPostItem extends StatelessWidget {
               Column(
                 children: [
                   Image.asset(
-                    'assets/img/laptoplenovo.jpg',
+                    item.hinhanh,
                     width: 100,
                     height: 100,
                     fit: BoxFit.cover,

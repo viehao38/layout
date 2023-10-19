@@ -18,22 +18,16 @@ class _MylistItemsState extends State<MylistItems> {
       hinhanh: 'assets/img/laptoplenovo.jpg',
     ),
     Post(
-      tenSP: "LapTopHP1040",
+      tenSP: "YeLan",
+      maSP: "HD002",
+      soLuong: 1,
+      hinhanh: 'assets/img/Yelan.jpg',
+    ),
+    Post(
+      tenSP: "Background",
       maSP: "HD003",
       soLuong: 1,
-      hinhanh: 'assets/img/laptoplenovo.jpg',
-    ),
-    Post(
-      tenSP: "LapTopHP1040",
-      maSP: "HD004",
-      soLuong: 1,
-      hinhanh: 'assets/img/laptoplenovo.jpg',
-    ),
-    Post(
-      tenSP: "LapTopHP1040",
-      maSP: "HD005",
-      soLuong: 1,
-      hinhanh: 'assets/img/laptoplenovo.jpg',
+      hinhanh: 'assets/img/background.jpg',
     ),
     Post(
       tenSP: "LapTopHP1040",
@@ -42,16 +36,34 @@ class _MylistItemsState extends State<MylistItems> {
       hinhanh: 'assets/img/laptoplenovo.jpg',
     ),
     Post(
-      tenSP: "LapTopHP1040",
-      maSP: "HD001",
+      tenSP: "YeLan",
+      maSP: "HD002",
       soLuong: 1,
-      hinhanh: 'assets/img/laptoplenovo.jpg',
+      hinhanh: 'assets/img/Yelan.jpg',
+    ),
+    Post(
+      tenSP: "Background",
+      maSP: "HD003",
+      soLuong: 1,
+      hinhanh: 'assets/img/background.jpg',
     ),
     Post(
       tenSP: "LapTopHP1040",
       maSP: "HD001",
       soLuong: 1,
       hinhanh: 'assets/img/laptoplenovo.jpg',
+    ),
+    Post(
+      tenSP: "YeLan",
+      maSP: "HD002",
+      soLuong: 1,
+      hinhanh: 'assets/img/Yelan.jpg',
+    ),
+    Post(
+      tenSP: "Background",
+      maSP: "HD003",
+      soLuong: 1,
+      hinhanh: 'assets/img/background.jpg',
     ),
   ];
   @override
