@@ -1,7 +1,5 @@
 import 'package:baitaplayout/screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -13,21 +11,21 @@ class MyDrawer extends StatelessWidget {
         children: <Widget>[
           ListTile(
             leading: const Icon(Icons.home),
-            title: Text('Home'),
+            title: const Text('Home'),
             onTap: () {
               Navigator.pushReplacement(
                 context,
-                MaterialPageRoute(builder: (context) => Screen()),
+                MaterialPageRoute(builder: (context) => const Screen()),
               );
             },
           ),
           ListTile(
             leading: const Icon(Icons.list),
-            title: Text('List'),
+            title: const Text('List'),
             onTap: () {
               Navigator.pushReplacement(
                 context,
-                MaterialPageRoute(builder: (context) => MyDrawer()),
+                MaterialPageRoute(builder: (context) => const MyDrawer()),
               );
             },
           ),
