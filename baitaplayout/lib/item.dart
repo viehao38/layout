@@ -23,9 +23,6 @@ class _MyItemState extends State<MyItem> {
   Widget build(BuildContext context) {
     return Container(
          color:widget.randoms,
-         child: Center(
-         // child: Text("iteam"),
-         ),
         );
   }
 }
