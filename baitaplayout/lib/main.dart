@@ -1,3 +1,4 @@
+import 'package:baitaplayout/screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,8 +17,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       initialRoute: '/',
-      routes: const {
-        // '/': (context) => const MyApp(),
+      routes: {
+        '/': (context) => const Screen()
         // '/list': (context) => const MyApp()
       },
     );
