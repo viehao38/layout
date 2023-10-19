@@ -23,10 +23,8 @@ class MyDrawer extends StatelessWidget {
             leading: const Icon(Icons.list),
             title: const Text('List'),
             onTap: () {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(builder: (context) => const MyDrawer()),
-              );
+              Navigator.popUntil(context, (route) => route.isFirst);
+              Navigator.pushNamed(context, '/list');
             },
           ),
         ],

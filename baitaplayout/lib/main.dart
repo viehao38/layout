@@ -1,3 +1,4 @@
+import 'package:baitaplayout/listitems.dart';
 import 'package:baitaplayout/screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,9 +19,10 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const Screen()
-        // '/list': (context) => const MyApp()
+        '/': (context) => const Screen(),
+        '/list': (context) => const MylistItems()
       },
+      debugShowCheckedModeBanner: false,
     );
   }
 }

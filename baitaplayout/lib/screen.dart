@@ -1,4 +1,5 @@
 import 'package:baitaplayout/drawer.dart';
+import 'package:baitaplayout/listitems.dart';
 import 'package:flutter/material.dart';
 
 class Screen extends StatelessWidget {
@@ -11,6 +12,7 @@ class Screen extends StatelessWidget {
         title: const Text("DEMO APP"),
         centerTitle: true,
       ),
+      body: const MylistItems(),
       drawer: const MyDrawer(),
     );
   }

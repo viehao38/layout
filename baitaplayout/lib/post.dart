@@ -1,9 +1,13 @@
-import 'package:flutter/material.dart';
-
-class ThuocTinh{
+class Post {
   final String tenSP;
-  final String maHD;
-  final String soLuong;
-  final Image hinhanh;
-  ThuocTinh({required this.tenSP,required this.maHD,required this.soLuong,required this.hinhanh});
+  final String maSP;
+  final String hinhanh;
+  final int soLuong;
+
+  Post({
+    required this.tenSP,
+    required this.maSP,
+    required this.soLuong,
+    required this.hinhanh,
+  });
 }
