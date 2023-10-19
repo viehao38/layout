@@ -19,25 +19,19 @@ class _MylistItemsState extends State<MylistItems> {
     ),
     Post(
       tenSP: "LapTopHP1040",
-      maSP: "HD001",
+      maSP: "HD003",
       soLuong: 1,
       hinhanh: 'assets/img/laptoplenovo.jpg',
     ),
     Post(
       tenSP: "LapTopHP1040",
-      maSP: "HD001",
+      maSP: "HD004",
       soLuong: 1,
       hinhanh: 'assets/img/laptoplenovo.jpg',
     ),
     Post(
       tenSP: "LapTopHP1040",
-      maSP: "HD001",
-      soLuong: 1,
-      hinhanh: 'assets/img/laptoplenovo.jpg',
-    ),
-    Post(
-      tenSP: "LapTopHP1040",
-      maSP: "HD001",
+      maSP: "HD005",
       soLuong: 1,
       hinhanh: 'assets/img/laptoplenovo.jpg',
     ),
@@ -63,6 +57,10 @@ class _MylistItemsState extends State<MylistItems> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("DEMO APP"),
+        centerTitle: true,
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: item.map((e) => MyPostItem(item: e)).toList(),

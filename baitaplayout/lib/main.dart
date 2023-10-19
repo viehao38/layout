@@ -1,5 +1,6 @@
 import 'package:baitaplayout/listitems.dart';
 import 'package:baitaplayout/screen.dart';
+import 'package:baitaplayout/girditems.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const Screen(),
+        '/gird': (context) => const Girditeams(),
         '/list': (context) => const MylistItems()
       },
       debugShowCheckedModeBanner: false,

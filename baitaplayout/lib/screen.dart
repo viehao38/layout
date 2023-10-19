@@ -1,5 +1,4 @@
-import 'package:baitaplayout/drawer.dart';
-import 'package:baitaplayout/listitems.dart';
+import 'package:baitaplayout/girditems.dart';
 import 'package:flutter/material.dart';
 
 class Screen extends StatelessWidget {
@@ -7,13 +6,8 @@ class Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("DEMO APP"),
-        centerTitle: true,
-      ),
-      body: const MylistItems(),
-      drawer: const MyDrawer(),
+    return const Scaffold(
+      body: Girditeams(),
     );
   }
 }
