@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ThuocTinh{
-  final String name;
-  final String maso;
-  final int age;
+  final String tenSP;
+  final String maHD;
+  final String soLuong;
   final Image hinhanh;
-  ThuocTinh({required this.name,required this.age,required this.maso,required this.hinhanh});
+  ThuocTinh({required this.tenSP,required this.maHD,required this.soLuong,required this.hinhanh});
 }
